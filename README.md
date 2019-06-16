@@ -69,13 +69,21 @@ This is my method by using `gdb` (Use Linux or WSL)
     gs             0x0      0
     ```
     Notice the one that we're looking for, `%ebx`. In 32-bit it will be shown as `ebx`, but in 64-bit it will be shown as `rbx`.
+
 7. `set $rbx=1`
+    
     Change the value of the register.
 8. `info registers`
+    
     Check if the register already replaced.
 9. `next`
+    
     Now it will print the flag :D
+    
     But the flag will be in form of brainfuck language and (those jerks) split it with a newline on each character, so you need a program and an online brainfuck interpreter. You can find the flag at `exc2.txt` and its python newline remover at `exc2.py`.
+    
     `rsqsjv{Arent_executables_fun?_I_think_so_sdkfjhqiweuryiquwerajzncxbvaihqiwueyr}`
+    
     Aaaaand they put it in Caesar Cipher +16. Find the correct format of the flag and you will have the flag.
+    
     `bcactf{Kboxd_ohomedklvoc_pex?_S_drsxu_cy_cnuptrasgoebisaegobktjxmhlfksrasgeoib}`
