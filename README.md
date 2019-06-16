@@ -5,6 +5,14 @@ There will be several challenges that I would like to make a write-up for becaus
 
 # Challenges
 ## `executable-2`
+Description:
+```
+It's in here somewhere. Good luck... again.
+
+(Now you actually have to try.)
+```
+And a linux file `executable2-ubuntu`.
+
 This challenge is categorized as Binary Exploitation. When you started the file by `./executable-ubuntu`, it will print:
 ```sh
 Welcome to the lottery!
