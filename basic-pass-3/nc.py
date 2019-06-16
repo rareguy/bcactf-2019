@@ -1,6 +1,7 @@
 from socket import socket
 from string import ascii_letters
 
+#flag: thepassword = "bcactf{y0u_4r3_4_m4573rm1nD!_Ym9vbGlu}"
 sock = socket()
 sock.connect(('challenges.ctfd.io', 30133))
 stringnow = "bcactf{\n"
@@ -11,7 +12,7 @@ print("> " + repr(data))
 data = sock.recv(1024)
 datanow = data.decode()
 print("> " + datanow)
-thepassword = "bcactf{y0u_4r3_4_m4573rm1nD!_Ym9vbGlu}"
+thepassword = "bcactf{"
 iterasi = len(thepassword)
 while True:
     for c in ascii_letters + '_' + '1234567890' + '!@#$%^&*()-=+{}':
