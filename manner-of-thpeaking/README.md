@@ -6,7 +6,9 @@ _Tho, I came Acroth thith therieth of inthturcthins, and thomething that thaid "
 And two files, `inthtructhins.txt` and `printableth.txt`.
 
 Hints:
+
 _Pardon my LITHP_
+
 _Backthaltheth in printableth.txt are ethcape charachterth_
 
 So `printableth.txt` is filled with weird strings with only `c`, `a`, `d`, and `r` letters. Looking at the hint, it turns out this is a weird list processing on Common LISP programming language, with `a` means take the first element and `d` means took every element except the first element. So I made a program `thpeaking.py` to parse the strings inside `inthtructhins.txt`.
