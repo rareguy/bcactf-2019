@@ -59,7 +59,7 @@ with open("inthtructhins.txt", "r") as f:
         tmp = tmp.strip("r")
         data.append(tmp)
 
-print(data)
+#print(data)
 
 theflag = ""
 
@@ -72,7 +72,7 @@ for i in data:
             curletters.pop(0)
         elif reg == "a":
             curletters = curletters[0]
-        print(curletters)
+        #print(curletters)
     theflag = theflag + curletters
 
 print(theflag)

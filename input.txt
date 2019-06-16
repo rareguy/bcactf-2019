@@ -1,0 +1,7 @@
+C B B C A 250
+A C D A 230
+A B C D 240
+D D D 225
+A A A A 150
+A A A A B B B B B C C C C C D D D D 1000
+A A A A B B B B B C C C C C D D D D 900
