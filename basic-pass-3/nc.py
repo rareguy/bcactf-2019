@@ -40,23 +40,3 @@ while True:
                 break
     iterasi+= 1
 sock.close()
-
-# # def netcat(host, port):
-#     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-#     s.connect((host, int(port)))
-#     stringnow = "bcactf{"
-#     s.send(stringnow.encode())
-#     
-#     while True:
-#         data = s.recv(1024)
-#         if not data:
-#             break
-#         print(repr(data))
-#         s.send(stringnow.encode())
-#     s.close()
-#     s.shutdown(socket.SHUT_WR)
-#     #s.shutdown(socket.SHUT_WR)
-
-#nc challenges.ctfd.io 30133
-
-# netcat("challenges.ctfd.io", 30133)
